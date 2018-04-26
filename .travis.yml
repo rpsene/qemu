@@ -134,6 +134,7 @@ matrix:
       sudo: required
       addons:
       dist: trusty
+      os: linux-ppc64le
       compiler: gcc
       before_install:
         - sudo apt-get update -qq
